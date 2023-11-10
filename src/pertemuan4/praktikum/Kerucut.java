@@ -2,8 +2,8 @@ package pertemuan4.praktikum;
 
 // Class Kerucut sebagai subclass dari Segitiga
 public class Kerucut extends Segitiga {
-    public double jariJari;
-    public double tinggiKerucut;
+    private double jariJari;
+    private double tinggiKerucut;
 
     // Constructor untuk inisialisasi jari-jari dan tinggi kerucut
     public Kerucut(double jariJari, double tinggiKerucut, double alas, double tinggi) {

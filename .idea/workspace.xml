@@ -4,28 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f41a4c88-6e02-4564-9632-e3a72b1cb65e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pertemuan3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pertemuan3/Tiket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pertemuan3/Utama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pertemuan3/mainclasspembeli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pertemuan3/pembeli.java" afterDir="false" />
+    <list default="true" id="f41a4c88-6e02-4564-9632-e3a72b1cb65e" name="Changes" comment="b">
+      <change afterPath="$PROJECT_DIR$/src/pertemuan6/BangunGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pertemuan6/Datar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pertemuan6/Kubus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pertemuan6/Persegi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pertemuan6/Ruang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pertemuan6Array/Laundry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pertemuan6Array/MainClassLaundry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pertemuan6Array/transaksiLaundry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pertemuan4/praktikum/Kerucut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pertemuan4/praktikum/Kerucut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pertemuan4/praktikum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pertemuan4/praktikum/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pertemuan4/praktikum/Segitiga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pertemuan4/praktikum/Segitiga.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -45,6 +50,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
+    ]
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,13 +67,65 @@
       <option name="presentableId" value="Default" />
       <updated>1697590870658</updated>
     </task>
+    <task id="LOCAL-00001" summary="b">
+      <created>1697814481356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697814481364</updated>
+    </task>
+    <task id="LOCAL-00002" summary="b">
+      <created>1698203374517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698203374517</updated>
+    </task>
+    <task id="LOCAL-00003" summary="b">
+      <created>1698209107958</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698209107958</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="b" />
+    <option name="LAST_COMMIT_MESSAGE" value="b" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pertemuan3$BangunGUI.ic" NAME="BangunGUI Coverage Results" MODIFIED="1699422620578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pertemuan6.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/pertemuan3$mainclassUtama.ic" NAME="mainclassUtama Coverage Results" MODIFIED="1697813156922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pertemuan3.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/pertemuan3$Utama.ic" NAME="Utama Coverage Results" MODIFIED="1697814265322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pertemuan3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pertemuan3$Main.ic" NAME="Main Coverage Results" MODIFIED="1699419060531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pertemuan6.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pertemuan3$Datar.ic" NAME="Datar Coverage Results" MODIFIED="1699422366778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pertemuan6.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pertemuan3$MainClassLaundry.ic" NAME="MainClassLaundry Coverage Results" MODIFIED="1699581080306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pertemuan6Array.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pertemuan3$MainClassPembeli.ic" NAME="MainClassPembeli Coverage Results" MODIFIED="1697815145399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pertemuan3.*</FILTER>
     </SUITE>
   </component>
