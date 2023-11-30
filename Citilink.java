@@ -1,40 +1,46 @@
 package remdi_uts;
 
-import java.util.Scanner;
-
-// Implementasi antarmuka Tiket untuk Citilink
-public class Citilink implements Tiket {
-    private String kotaKeberangkatan;
-    private String tujuan;
+public class Citilink {
+    private int jumlahPenumpang;
+    private String kotaTujuan;
+    private String noPesawat;
+    private String noKursi;
     private int harga;
 
-    // Konstruktor
-    public Citilink(String kotaKeberangkatan, String tujuan, int harga) {
-        this.kotaKeberangkatan = kotaKeberangkatan;
-        this.tujuan = tujuan;
-        this.harga = harga;
+    public Citilink(String bookingID, String nik, String nama, String jenis_kelamin,
+                    String tglBerangkat, String tglKembali, String kotaAsal,
+                    int jumlahPenumpang, String kotaTujuan, String noPesawat, String noKursi) {
+        // Implementasi konstruktor Citilink yang memanggil konstruktor Tiket
     }
 
-    // Implementasi dari antarmuka Tiket
-    public void entriData() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Entri Data Pesanan Tiket Citilink");
+    // Getter
 
-        System.out.print("Kota Keberangkatan (Surabaya/Jakarta): ");
-        this.kotaKeberangkatan = scanner.nextLine();
 
-        System.out.print("Tujuan (Bali/Lombok/Jakarta/Yogyakarta/Balikpapan/Makassar): ");
-        this.tujuan = scanner.nextLine();
-
-        System.out.print("Harga: ");
-        this.harga = scanner.nextInt();
+    public int getJumlahPenumpang() {
+        return jumlahPenumpang;
     }
 
-    public void cetakTiket() {
-        System.out.println("\nCetak Tiket Citilink");
-        System.out.println("Kota Keberangkatan: " + kotaKeberangkatan);
-        System.out.println("Tujuan: " + tujuan);
-        System.out.println("Harga: " + harga);
+    public String getKotaTujuan() {
+        return kotaTujuan;
+    }
+
+    public String getNoPesawat() {
+        return noPesawat;
+    }
+
+    public String getNoKursi() {
+        return noKursi;
+    }
+
+    // Metode untuk mendapatkan harga tiket
+    public int getHarga() {
+        // Implementasi logika perhitungan harga sesuai kota asal dan tujuan
+        return 0;
+    }
+
+    // Metode untuk mendapatkan total harga tiket
+    public int getTotal() {
+        // Implementasi logika perhitungan total harga
+        return 0;
     }
 }
-

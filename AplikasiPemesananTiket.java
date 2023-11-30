@@ -1,8 +1,8 @@
 package remdi_uts;
 
+
 import java.util.Scanner;
 
-// Kelas utama aplikasi
 public class AplikasiPemesananTiket {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -20,9 +20,9 @@ public class AplikasiPemesananTiket {
             switch (menu) {
                 case 1:
                     // Entri Data Pesanan Tiket
-                    Tiket pesananCitilink = new Citilink("", "", 0);
-                    pesananCitilink.entriData();
-                    pemesananTiketManager.tambahPesanan(pesananCitilink);
+                    Tiket pesananTiket = new Tiket("", "", "", "", "", "", "");
+                    pesananTiket.entriData();
+                    pemesananTiketManager.tambahPesanan(pesananTiket);
                     break;
                 case 2:
                     // Cetak Tiket
@@ -38,4 +38,3 @@ public class AplikasiPemesananTiket {
         }
     }
 }
-

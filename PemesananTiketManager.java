@@ -2,7 +2,6 @@ package remdi_uts;
 
 import java.util.ArrayList;
 
-// Kelas untuk mengelola pesanan tiket dengan polimorfisme
 public class PemesananTiketManager {
     private ArrayList<Tiket> pesananTiketList = new ArrayList<>();
 
@@ -15,9 +14,9 @@ public class PemesananTiketManager {
             System.out.println("Belum ada data pesanan tiket.");
         } else {
             for (Tiket pesanan : pesananTiketList) {
-                pesanan.cetakTiket();
+                System.out.println("Cetak Tiket");
+                // Cetak data tiket sesuai kebutuhan
             }
         }
     }
 }
-
